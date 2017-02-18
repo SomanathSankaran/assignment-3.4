@@ -15,3 +15,15 @@ To avoid this in hadoop 2.x version there is a process known as high availabilit
 so if active name node fails this passive name node can be used as an active and the old active node could be used 
 4.Name node manages the meta data(creation,deletion of files,directories)
 5.Name node also  maintains the blocks(heart beat management and block replication ,reporting etc)
+
+QN 2 HDFS COMMANDS
+1.I have created a directory named my_dir in hdfs using hadoop dfs -mkdir user/acadgild/my_dir(IMG:assmt 3.4mkdir) 
+2.and then checked it by using 
+hadoop dfs -ls user/acadgild/(IMG:assmt 3.4list)
+3.I have created a file "sample" in my local system and then copied to hdfs using hadoop dfs -put command and checked whether the file exists using hadoop dfs -ls command(IMG : assnt 3.4put)
+4.I removed the file "sample" from my local system by using "rm" command and used "ls" to verify it.
+and I moved the file from cluster to my local system
+NOW I CHECKED THAT BY USING "ls command" and the file sample is moved(IMG : assnt 3.4get)
+5.executed Balance 
+6.Executed fsck 
+7.executed remove command and removed the file sample()
