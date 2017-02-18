@@ -26,4 +26,4 @@ and I moved the file from cluster to my local system
 NOW I CHECKED THAT BY USING "ls command" and the file sample is moved(IMG : assnt 3.4get)
 5.executed Balance 
 6.Executed fsck 
-7.executed remove command and removed the file sample()
+7.executed remove command and removed the file sample(IMG RM)
